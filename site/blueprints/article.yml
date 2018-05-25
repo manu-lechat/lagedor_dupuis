@@ -36,10 +36,15 @@ fields:
         width: 1/3
         translate: false
     resume:
-        label: Résumé
+        label: Résumé pour la page Blog
         type: textarea
         buttons: false
         required: true
+    texte:
+      label: Texte pour la page Article
+      type: textarea
+      buttons: false
+      required: false
     builder:
         label: Contenu de l'article
         type: builder

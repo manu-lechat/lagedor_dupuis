@@ -1,0 +1,48 @@
+Title: Recherche de personnages
+
+----
+
+Cover: 000.jpg
+
+----
+
+Publication-date: 
+
+----
+
+Resume: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+----
+
+Builder: 
+
+- 
+  picture: 001.jpg
+  _fieldset: builder_picture
+- 
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod.
+  _fieldset: builder_text
+- 
+  picture: 002.jpg
+  _fieldset: builder_picture
+- 
+  text: >
+    non proident, sunt in culpa qui officia
+    deserunt mollit anim id est laborum.
+  _fieldset: builder_text
+- 
+  picture: 003.jpg
+  _fieldset: builder_picture
+- 
+  picture: 004.jpg
+  _fieldset: builder_picture
+- 
+  text: >
+    unt in culpa qui officia deserunt mollit
+    anim id est laborum.
+  _fieldset: builder_text
+- 
+  picture: 005.jpg
+  _fieldset: builder_picture

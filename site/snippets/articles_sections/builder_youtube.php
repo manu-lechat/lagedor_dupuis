@@ -6,3 +6,4 @@
 <section class="article_youtube">
     ID DE LA VIDEO : <?php $video_id['v'] ?>
 </section>
+<?php endif; ?>

@@ -2,7 +2,7 @@ Title: Présentation
 
 ----
 
-Resume:
+Resume: 
 
 La légende parle d’un Âge d’or, *« où vallées et montagnes n’étaient entravées d’aucune muraille.
 Où les hommes allaient et venaient librement… »*
@@ -14,7 +14,7 @@ Guidée par des signes étranges, Tilda décide de reconquérir son royaume avec
 
 ----
 
-Test:
+Test: 
 
 ----
 
@@ -22,11 +22,11 @@ Test-two: 000.jpg,001-1.jpg
 
 ----
 
-Test2:
+Test2: 
 
 ----
 
-Chapo:
+Chapo: 
 
 Un roman épique qui nous conte
 le destin héroïque d’une princesse déchue.
@@ -37,15 +37,15 @@ Sub-chapo: Par Roxanne Moreil et Cyril Pedrosa.
 
 ----
 
-Titre-resume:
+Titre-resume: 
 
 ----
 
-Titre-auteurs:
+Titre-auteurs: 
 
 ----
 
-Bio1:
+Bio1: 
 
 Roxanne Moreil partage son temps entre son métier de libraire et une ribambelle de projets liés à la bande dessinée. Membre active de *Maison Fumetti*, elle participe avec énergie au  festival Fumetti et à la création de l'exposition féministe *« Une BD quand je veux si je veux »*.
 
@@ -57,11 +57,11 @@ Bio2: Sa rencontre avec le scénariste David Chauvel l’entraîne des studios d
 
 ----
 
-Swiper-presentation:
+Swiper-presentation: 
 
 ----
 
-Swiper-presentation2:
+Swiper-presentation2: 
 
 ----
 
@@ -69,15 +69,15 @@ Couv: 001-1.jpg
 
 ----
 
-Portrait:
+Portrait: 
 
 ----
 
-Portrait1: 004.jpg
+Portrait1: roxane.jpg
 
 ----
 
-Portrait2: 004.jpg
+Portrait2: cyril.jpg
 
 ----
 
@@ -89,18 +89,26 @@ Authors-title: Les auteurs
 
 ----
 
-Cover: 001.jpg
+Cover: mockup.jpg
 
 ----
 
-Slideshow1:
+Slideshow1: 
 
-- 000.jpg
-- 004.jpg
+- bandeau1.jpg
+- bandeau2.jpg
+- bandeau3.jpg
+- bandeau4.jpg
 
 ----
 
-Slideshow2:
+Slideshow2: 
 
-- 001-1.jpg
-- 001.jpg
+- diapo1.jpg
+- diapo2.jpg
+- diapo3.jpg
+- diapo4.jpg
+- diapo5.jpg
+- diapo6.jpg
+- diapo7.jpg
+- diapo8.jpg
