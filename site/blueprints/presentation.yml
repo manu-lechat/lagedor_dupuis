@@ -1,0 +1,83 @@
+title: Présentation
+options:
+  status: false
+  template: false
+  url: false
+  delete: false
+pages: false
+files:
+  sortable: true
+  type: image
+  size: 12000000
+  fields:
+    diaporama:
+      label: Diapo
+      type: select
+      options:
+        diaporama0: Pas dans un diaporama
+        diaporama1: Dans le diaporama 1
+        diaporama2: Dans le diaporama 2
+      required: true
+
+fields:
+  title:
+    label: Titre
+    type:  text
+  chapo:
+    label: ssTitre
+    type:  text
+  sub_chapo:
+    label: ssTitre2
+    type:  text
+  titre_resume:
+    label: titre_resume
+    type:  text
+  titre_auteurs:
+    label: titre_auteurs
+    type:  text
+  resume:
+    label: Résumé
+    type: textarea
+    buttons: false
+    required: true
+  bio1:
+    label: bio1
+    type: textarea
+    buttons: false
+    required: true
+  bio2:
+    label: bio2
+    type: textarea
+    buttons: false
+    required: true
+  # swiper_presentation:
+  #   label: diaporama1
+  #   type: structure
+  #   entry: >
+  #     <b>Image</b>: {{image}}
+  #   fields:
+  #     image:
+  #       label: Image
+  #       type: image
+  #   width: 1/2
+  # swiper_presentation2:
+  #   label: diaporama2
+  #   type: structure
+  #   entry: >
+  #     <b>Image</b>: {{image}}
+  #   fields:
+  #     image:
+  #       label: Image
+  #       type: image
+  #   width: 1/2
+  couv:
+    label: couv
+    type: image
+  portrait1:
+    label: portrait
+    type: image
+    required: true
+  portrait2:
+    label: portrait2
+    type: image
+    required: true

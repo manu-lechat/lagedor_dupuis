@@ -1,0 +1,7 @@
+title: Défault
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text

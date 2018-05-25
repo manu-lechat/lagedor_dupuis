@@ -1,0 +1,7 @@
+title: Site
+pages: true
+files: false
+fields:
+  title:
+    label: Titre
+    type: text

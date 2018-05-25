@@ -1,0 +1,65 @@
+Title: Présentation
+
+----
+
+Resume: gtrd
+
+----
+
+Test: 
+
+----
+
+Test-two: 000.jpg,001-1.jpg
+
+----
+
+Test2: 
+
+----
+
+Chapo: coucoucoucoucoucou
+
+----
+
+Sub-chapo: 
+
+----
+
+Titre-resume: 
+
+----
+
+Titre-auteurs: 
+
+----
+
+Bio1: efzds
+
+----
+
+Bio2: zedsfv
+
+----
+
+Swiper-presentation: 
+
+----
+
+Swiper-presentation2: 
+
+----
+
+Couv: 001-1.jpg
+
+----
+
+Portrait: 
+
+----
+
+Portrait1: 004.jpg
+
+----
+
+Portrait2: 004.jpg
