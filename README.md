@@ -1,1 +1,0 @@
-# lagedor_dupuis
