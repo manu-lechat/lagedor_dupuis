@@ -1,0 +1,21 @@
+title: Site
+pages: false
+files: false
+
+fields:
+    title:
+        label: Titre
+        type: text
+
+    nav_line:
+        label: Navigation
+        type: line
+
+    blog_line:
+        label: Blog
+        type: line
+
+    blog_readmore:
+        label: Lire la suite
+        type: text
+        required: true

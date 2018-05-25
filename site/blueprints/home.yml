@@ -1,0 +1,13 @@
+title: Home
+options:
+  status: false
+  template: false
+  url: false
+  delete: false
+pages: false
+files: false
+fields:
+    title:
+        Label: Titre
+        type: Text
+        help: coucou

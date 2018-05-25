@@ -1,0 +1,9 @@
+title: Mentions légales
+options:
+  status: false
+  template: false
+  url: false
+  delete: false
+pages: article
+files: false
+fields:

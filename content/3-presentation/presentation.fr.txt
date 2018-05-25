@@ -1,0 +1,106 @@
+Title: Présentation
+
+----
+
+Resume:
+
+La légende parle d’un Âge d’or, *« où vallées et montagnes n’étaient entravées d’aucune muraille.
+Où les hommes allaient et venaient librement… »*
+Mais ce temps lointain est bien révolu.
+
+Le royaume est accablé par la disette et les malversations des seigneurs de la cour. À la mort du vieux roi, sa fille Tilda s’apprête à monter sur le trône pour lui succéder. Avec le soutien du sage Tankred et du loyal Bertil, ses plus proches conseillers et amis, elle entend mener à bien les réformes nécessaires pour soulager son peuple des maux qui l'accablent. Mais un complot mené par son jeune frère la condamne brusquement à l'exil.
+
+Guidée par des signes étranges, Tilda décide de reconquérir son royaume avec l'aide de ses deux compagnons. Commence alors un long périple, où leur destin sera lié à *« L'Âge d'or »*; bien plus qu'une légende, bien plus que l'histoire passée des hommes libres et de leur combat, c'est un livre oublié dont le pouvoir est si grand qu'il changera le monde.
+
+----
+
+Test:
+
+----
+
+Test-two: 000.jpg,001-1.jpg
+
+----
+
+Test2:
+
+----
+
+Chapo:
+
+Un roman épique qui nous conte
+le destin héroïque d’une princesse déchue.
+
+----
+
+Sub-chapo: Par Roxanne Moreil et Cyril Pedrosa.
+
+----
+
+Titre-resume:
+
+----
+
+Titre-auteurs:
+
+----
+
+Bio1:
+
+Roxanne Moreil partage son temps entre son métier de libraire et une ribambelle de projets liés à la bande dessinée. Membre active de *Maison Fumetti*, elle participe avec énergie au  festival Fumetti et à la création de l'exposition féministe *« Une BD quand je veux si je veux »*.
+
+*L'Âge d'or* est son premier scénario, co-écrit avec Cyril Pedrosa avec qui elle a fondé en 2015 les éditions La Vie Moderne.
+
+----
+
+Bio2: Sa rencontre avec le scénariste David Chauvel l’entraîne des studios d’animation de Walt Disney à la BD avec la tétralogie *Ring Circus*. Signant à la fois parmi des collectifs (*Paroles sans-papiers, Premières Fois*) ou en solitaire (*Trois Ombres*), il est aussi l’auteur de séries jeunesse comme *Brigade Fantôme* et membre fondateur de la revue *Professeur Cyclope*. Prix Le Point de la BD, Prix Sheriff d’or de la librairie Esprit BD, Prix Bédélys Monde pour *Portugal*, 2011. Prix des Libraires de Bande Dessinée, Prix de la BD Fnac pour *Portugal*, 2012.
+
+----
+
+Swiper-presentation:
+
+----
+
+Swiper-presentation2:
+
+----
+
+Couv: 001-1.jpg
+
+----
+
+Portrait:
+
+----
+
+Portrait1: 004.jpg
+
+----
+
+Portrait2: 004.jpg
+
+----
+
+Resume-title: RÉSUMÉ
+
+----
+
+Authors-title: Les auteurs
+
+----
+
+Cover: 001.jpg
+
+----
+
+Slideshow1:
+
+- 000.jpg
+- 004.jpg
+
+----
+
+Slideshow2:
+
+- 001-1.jpg
+- 001.jpg

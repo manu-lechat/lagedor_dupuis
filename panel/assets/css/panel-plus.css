@@ -1,0 +1,74 @@
+.builder-entry-content {
+    padding: 0!important;
+    line-height: 0;
+}
+
+label.builder-entry-fieldset-name {
+    line-height: 1.1em!important;
+}
+
+.builder-entry-content section {
+    padding: 1em 1.5em;
+}
+
+.builder-entry-content section.text {
+    padding-bottom: 0;
+}
+
+.builder-entry-content section.link {
+    line-height: 1.5;
+}
+
+.builder-entry-content section.image {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.builder-entry-content section.images {
+    padding: 0;
+    font-size: 0;
+}
+
+.builder-entry-content section.images article {
+    display: inline-block;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.builder-entry-content section.youtube {
+    padding: 0;
+}
+
+.builder-entry-content section.youtube article {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.builder-entry-content section.youtube article span {
+    position: relative;
+    display: table;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.builder figure.images-figure {
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.builder figure.images-figure a[href$="/edit"] {
+    pointer-events: none;
+}
+
+.builder figure.images-figure a[href$="/edit"].btn {
+    display: none!important;
+}
+
+.builder figure.images-figure a[href="#remove"].btn {
+    width: 100%!important;
+}
