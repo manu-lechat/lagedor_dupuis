@@ -38,7 +38,6 @@ var newPageReady = function() {
 };
 
 function preloadImg() {
-<<<<<<< HEAD
   var array_preload = ["/assets/img/nav/couv.jpg",
     "/assets/img/nav/visuel-chapitre_1.jpg",
     "/assets/img/nav/visuel-chapitre_2.jpg",
@@ -48,15 +47,6 @@ function preloadImg() {
     "/assets/img/nav/visuel-chapitre_6.jpg",
     "/assets/img/nav/visuel-chapitre_7.jpg",
     "/assets/img/nav/visuel-chapitre_8.jpg"
-=======
-  var array_preload = ["assets/img/nav/couv.jpg",
-    "assets/img/nav/001.jpg",
-    "assets/img/nav/002.jpg",
-    "assets/img/nav/003.jpg",
-    "assets/img/nav/004.jpg",
-    "assets/img/nav/005.jpg",
-    "assets/img/nav/006.jpg"
->>>>>>> 4e2379fe52a2bcfb65890595dddfa0378005f024
   ];
   var img_container = document.getElementById("imgPreload_container");
   for (var i = 0; i < array_preload.length; i++) {
