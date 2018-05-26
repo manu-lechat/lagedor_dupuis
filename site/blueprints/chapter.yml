@@ -23,21 +23,32 @@ fields:
     label: Titre
     type: text
     width: 1/3
+  txt_pages:
+    label: Pages
+    type: text
+    width: 1/3
+    required: true
+  hidden:
+    type: info
+    width: 1/3
   date_in:
     label: Date de début
     type: date
     format: DD/MM/YYYY
     width: 1/3
+    required: true
   date_out:
     label: Date de fin
     type: date
     format: DD/MM/YYYY
     width: 1/3
+    required: true
   txt_date:
     label: Texte dates
     type: text
     required: true
     width: 1/3
+    required: true
   line1:
     label: Infos Page résumé
     type: line

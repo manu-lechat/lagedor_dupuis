@@ -15,3 +15,18 @@ Home-welcome: Découvrir l'album
 ----
 
 Blog-goback: Retour au blog
+
+----
+
+Nav-presentation: Résumé et présentation des auteurs
+
+----
+
+Nav-blog: Actualité de l'album
+
+----
+
+Nav-intro: 
+
+Découvrez ***« L'âge d'or »*** cet été au rythme d’***un chapitre par semaine***,
+En attendant la sortie de l'album en librairie le 7 septembre.

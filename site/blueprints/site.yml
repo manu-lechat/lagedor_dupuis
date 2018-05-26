@@ -10,24 +10,36 @@ fields:
     home_line:
         label: Page d'accueil
         type: line
-
     home_welcome:
         label: Bouton page d'accueil
         type: text
+        required: true
 
     nav_line:
         label: Navigation
         type: line
+    nav_intro:
+        label: Introduction
+        type: textarea
+        buttons:
+            - italic
+            - bold
+    nav_presentation:
+        label: Résumé et présentation des auteurs
+        type: text
+        required: true
+    nav_blog:
+        label: Actualité de l'album
+        type: text
+        required: true
 
     blog_line:
         label: Blog
         type: line
-
     blog_readmore:
         label: Lire la suite
         type: text
         required: true
-
     blog_goBack:
         label: Retour au blog
         type: text

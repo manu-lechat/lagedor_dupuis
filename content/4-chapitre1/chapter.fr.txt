@@ -39,3 +39,7 @@ Lien-prev-page:
 ----
 
 Dir-img: chapitre1
+
+----
+
+Txt-pages: Pages 1 à 17

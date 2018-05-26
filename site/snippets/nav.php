@@ -16,9 +16,7 @@
             <img src="<?php echo kirby()->urls()->assets() ?>/img/_<?php echo($site->language())?>/nav_logo.svg" class="logo appear1">
         </a>
         <p class="intro appear1">
-
-          Découvrez <span class="italic">« L'âge d'or »</span> cet été au rythme d’<span class="bold">un chapitre par semaine,</span><br> En attendant la sortie de l'album en librairie le 7 septembre.
-
+            <?php echo $site->nav_intro()->kirbytextRaw() ?>
         </p>
         <!-- <h1>Sommaire</h1> -->
 
@@ -27,28 +25,34 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide appear2">
-                  <a href="/presentation" class='' img_hover="default">
+                  <a href="<?php echo $site->page('presentation')->url() ?>" class='' img_hover="default">
                     <h2><?php echo $site->page('presentation')->title()->html() ?></h2>
-                    <h3 class="first_content">Résumé et présentation des auteurs</h3>
-                    <h3 class="hover_content">Résumé et présentation des auteurs</h3>
+                    <h3 class="first_content"><?php echo $site->nav_presentation()->html() ?></h3>
+                    <h3 class="hover_content"><?php echo $site->nav_presentation()->html() ?></h3>
                   </a>
                 </div>
                 <div class="swiper-slide appear2">
-                  <a href="/blog" class='' img_hover="blog.jpg">
+                  <a href="<?php echo $site->page('blog')->url() ?>" class='' img_hover="blog.jpg">
                     <h2><?php echo $site->page('blog')->title()->html() ?></h2>
-                    <h3 class="first_content">actualité de l'album</h3>
-                    <h3 class="hover_content">actualité de l'album</h3>
+                    <h3 class="first_content"><?php echo $site->nav_blog()->html() ?></h3>
+                    <h3 class="hover_content"><?php echo $site->nav_blog()->html() ?></h3>
                   </a>
                 </div>
             <?php foreach( $site->index()->filterBy('template', 'chapter') as $chapter ): ?>
                 <div class="swiper-slide appear2">
                   <a href="<?php echo $chapter->url() ?>"  <?php if( $chapter->url() != $page->url() ): ?>class="inactif"<?php endif ?> img_hover="visuel-<?php echo $chapter->title()->html() ?>.jpg">
                     <h2><?php echo $chapter->title()->html() ?></h2>
-                    <h3 class="first_content">qsdfghj</h3>
+                    <h3 class="first_content"><?php echo $chapter->txt_pages()->html() ?></h3>
                     <h3 class="hover_content"><?php echo $chapter->txt_date()->html() ?></h3>
                   </a>
                 </div>
             <?php endforeach ?>
+                <div class="swiper-slide appear2">
+                  <a href="<?php echo $site->page('mentions-legales')->url() ?>" class='' img_hover="default">
+                    <h3 class="first_content"><?php echo $site->page('mentions-legales')->title()->html() ?></h3>
+                    <h3 class="hover_content"><?php echo $site->page('mentions-legales')->title()->html() ?></h3>
+                  </a>
+                </div>
             </div>
 
 
