@@ -12,7 +12,11 @@
         <p class="chapo"><?php echo $page->parent()->chapo()->kirbytextRaw() ?></p>
 
         <div class="top_content">
+<<<<<<< HEAD
           <a href="<?php echo $page->parent()->url() ?>"><?php echo $site->blog_goBack()->html() ?></a>
+=======
+          <a href="<?php echo $page->parent()->url() ?>">Retour au blog</a>
+>>>>>>> 4e2379fe52a2bcfb65890595dddfa0378005f024
         </div>
 
         <article class="article_blog">

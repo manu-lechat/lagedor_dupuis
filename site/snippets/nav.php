@@ -13,7 +13,11 @@
         <div class="col">
 
         <a href="index.php">
+<<<<<<< HEAD
         <img src="/assets/img/_<?php echo($site->language())?>/nav_logo.svg" class="logo appear1">
+=======
+        <img src="../assets/img/nav/logo.svg" class="logo appear1">
+>>>>>>> 4e2379fe52a2bcfb65890595dddfa0378005f024
         </a>
         <p class="intro appear1">
 
