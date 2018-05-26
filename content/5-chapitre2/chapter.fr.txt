@@ -2,20 +2,44 @@ Title: Chapitre 2
 
 ----
 
-Date-in:
+Date-in: 2018-07-09
 
 ----
 
-Date-out:
+Date-out: 2018-07-15
 
 ----
 
-Resume:
+Resume: 
+
+ther layouts and the form of the content before the content has been created, giving the design and production process more freedom.
+
+It is widely believed that the history of Lorem Ipsum originates with Cicero in the 1st Century BC and his text De Finibus bonorum et malorum. This philosophical work, also known as On the Ends of Good and Evil, was split into five books. The Lorem Ipsum we know today is derived from parts of the first book Liber Primus and its discussion on hedonism, the words of which had been altered, added and removed to make it nonsensical and improper L
 
 ----
 
-Texte:
+Texte: 
 
 ----
 
 Couv: 
+
+----
+
+Txt-date: Disponible du 9 au 15 juillet
+
+----
+
+Illus-resume: bandeau2.jpg
+
+----
+
+Lien-prev-page: chapitre1
+
+----
+
+Lien-next-page: chapitre3
+
+----
+
+Dir-img: chapitre2

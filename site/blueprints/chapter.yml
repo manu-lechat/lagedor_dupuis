@@ -33,17 +33,38 @@ fields:
     type: date
     format: DD/MM/YYYY
     width: 1/3
+  txt_date:
+    label: Texte dates
+    type: text
+    required: true
+    width: 1/3
+  line1:
+    label: Infos Page résumé
+    type: line
   resume:
     label: resume
     type: textarea
     buttons: false
     required: true
-  texte:
-    label: texte
-    type: textarea
-    buttons: false
-    required: false
-  couv:
-    label: couv
+    width: 1/2
+  illus_resume:
+    label: illus résumé (format strip)
     type: image
     required: true
+    width: 1/2
+  line2:
+    label: Variables
+    type: line
+  dir_img:
+    label: Dossier contenant les images
+    type: text
+    required: true
+    width: 1/4
+  lien_prev_page:
+    label: Chapitre précédent
+    type: text
+    width: 1/4
+  lien_next_page:
+    label: Chapitre suivant
+    type: text
+    width: 1/4

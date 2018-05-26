@@ -2,20 +2,40 @@ Title: Chapitre 1
 
 ----
 
-Date-in:
+Date-in: 2018-07-02
 
 ----
 
-Date-out:
+Date-out: 2018-07-08
 
 ----
 
-Resume:
+Resume: Lorem Ipsum est un texte d'espace réservé couramment utilisé dans les industries graphique, imprimée et éditoriale pour prévisualiser les mises en page et les maquettes visuelles.
 
 ----
 
-Texte:
+Texte: 
 
 ----
 
-Couv: 
+Couv: 006.jpg
+
+----
+
+Illus-resume: bandeau1.jpg
+
+----
+
+Txt-date: Disponible du 2 au 8 juillet
+
+----
+
+Lien-next-page: chapitre2
+
+----
+
+Lien-prev-page: 
+
+----
+
+Dir-img: chapitre1

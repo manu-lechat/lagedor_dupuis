@@ -42,10 +42,10 @@
                 </div>
             <?php foreach( $site->index()->filterBy('template', 'chapter') as $chapter ): ?>
                 <div class="swiper-slide appear2">
-                  <a href="<?php echo $chapter->url() ?>"  <?php if( $chapter->url() != $page->url() ): ?>class="inactif"<?php endif ?> img_hover="visuel-chapitre_1.jpg">
+                  <a href="<?php echo $chapter->url() ?>"  <?php if( $chapter->url() != $page->url() ): ?>class="inactif"<?php endif ?> img_hover="visuel-<?php echo $chapter->title()->html() ?>.jpg">
                     <h2><?php echo $chapter->title()->html() ?></h2>
                     <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
+                    <h3 class="hover_content"><?php echo $chapter->txt_date()->html() ?></h3>
                   </a>
                 </div>
             <?php endforeach ?>

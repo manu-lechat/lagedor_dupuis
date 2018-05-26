@@ -31,7 +31,19 @@ Builder:
     long.
   _fieldset: builder_text
 - 
+  picture: lagedor_prologue-copie.jpg
+  _fieldset: builder_picture
+- 
   picture: premiere_image.jpg
+  _fieldset: builder_picture
+- 
+  picture: l-age-d-or_1_page_002.jpg
+  _fieldset: builder_picture
+- 
+  picture: l-age-d-or_1_page_003.jpg
+  _fieldset: builder_picture
+- 
+  picture: l-age-d-or_1_page_004.jpg
   _fieldset: builder_picture
 
 ----

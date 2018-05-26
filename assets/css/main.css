@@ -288,7 +288,13 @@ h1, h2, h3{ font-family: 'PT_Serif_Italic', serif; font-weight: lighter;}
 .page_blog_article .swiper_article{ border:1px solid #dedede }
 .page_blog_article .swiper_article img{  }
 
-/* page article_
+/* page article */
+.article_picture{ padding: 15px; max-width: 100% ;}
+.article_picture img{ width: 100%;  }
+
+
+
+
 /* load imgs */
 
 .preload_img{ display: none; }
@@ -313,7 +319,8 @@ h1, h2, h3{ font-family: 'PT_Serif_Italic', serif; font-weight: lighter;}
 .teaser_container h1{ font-family: 'PT_Serif_Italic' ;  line-height: 1.2em;  color :#63bcba; font-size: 48px; margin-bottom: .2em; display: block; clear: both;}
 .teaser_container h2{ font-family: 'PT_Serif_Italic' ;  line-height: 1.2em;  color :#000; font-size: 24px; margin-bottom: .2em;  display: block; clear: both; }
 .teaser_container .img_container{ width: 100%; height: auto; margin: 40px 0;  display: block; clear: both; }
-.teaser_container .resume{ color: #000; opacity: 0.88; text-align: center;  font-size: 16px; line-height: 1.8em;  font-family: 'Lato_Bold';  display: block; clear: both; }
+.teaser_container .resume{  max-width: 900px; margin: 0 auto; color: #000; opacity: 0.88; text-align: center;  font-size: 16px; line-height: 1.8em;  font-family: 'Lato_Bold';  display: block; clear: both; }
+.teaser_container .chapter_illus_resume{ width: 90%; max-width: 800px;}
 
 /* ui */
 

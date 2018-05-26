@@ -2,15 +2,19 @@ Title: Chapitre 3
 
 ----
 
-Date-in: 
+Date-in: 2018-07-16
 
 ----
 
-Date-out: 
+Date-out: 2018-07-22
 
 ----
 
 Resume: 
+
+peface manufacturer Letraset, who used it in their advertising campaigns. Letraset offered pages of Lorem Ipsum as rub down transfer sheets, which were widely used in the pre-computer era for layouts. These transfer pages, known as Letraset Body Type, were featured in the company's advertising and their popular catalogue.
+
+Lorem Ipsum was reintroduced in the 1980s by the Aldus Corporation, a company that developed Desktop Publishing Software. Their most well known product PageMaker came with pre-ins
 
 ----
 
@@ -19,3 +23,23 @@ Texte:
 ----
 
 Couv: 
+
+----
+
+Txt-date: Disponible du 16 au 22 juillet
+
+----
+
+Illus-resume: bandeau3.jpg
+
+----
+
+Dir-img: chapitre3
+
+----
+
+Lien-prev-page: chapitre2
+
+----
+
+Lien-next-page: chapitre4
