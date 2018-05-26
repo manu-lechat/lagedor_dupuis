@@ -3,9 +3,9 @@
 <main  class="barba-container page_chapter" data-namespace="page_chapter">
 
 <?php $today = date('Ymd') ?>
-<?php $date_in = $page->date('Ymd','date_in') ?>
-<?php $date_out = $page->date('Ymd','date_out') ?>
-<?php $lisibility = $page->lisibility() ?>
+<?php $date_in = $page->parent()->date('Ymd','date_in') ?>
+<?php $date_out = $page->parent()->date('Ymd','date_out') ?>
+<?php $lisibility = $page->parent()->lisibility() ?>
 
 <?php $dir_img = kirby()->roots()->assets() . '/img/_'.$site->language().'/chapitres/'.$page->id().'/*.jpg' ?>
 <?php $images = glob( $dir_img ) ?>
@@ -28,6 +28,22 @@
 <?php $next_chapter = '' ?>
 <?php if ( $chapter_index < $count ): ?>
     <?php $next_chapter = $site->page($array[$chapter_index+1])->url() ?>
+<?php endif ?>
+
+<?php $array = [] ?>
+<?php $count = -1 ?>
+<?php foreach( $page->parent()->children()->index() as $part ): ?>
+    <?php $count++ ?>
+    <?php array_push($array,$part->id()) ?>
+<?php endforeach ?>
+<?php $part_index = array_search($page->id(), $array) ?>
+<?php $prev_part = '' ?>
+<?php if ( $part_index > 0 ): ?>
+    <?php $prev_part = $site->page($array[$part_index-1])->url() ?>
+<?php endif ?>
+<?php $next_part = '' ?>
+<?php if ( $part_index < $count ): ?>
+    <?php $next_part = $site->page($array[$part_index+1])->url() ?>
 <?php endif ?>
 
 <!-- $images_index != 0 est peut être en trop  -->
@@ -55,28 +71,32 @@
 
     <?php endif ?>
 
-    <?php if($prev_chapter != ''): ?>
+	<?php if($prev_part != ''): ?>
+	<a class="bt_prev" href="<?php echo $prev_part ?>"><span></span></a>
+	<?php else: ?>
+		<?php if($prev_chapter != ''): ?>
     <a class="bt_prev" href="<?php echo $prev_chapter ?>"><span></span></a>
-    <?php endif ?>
-    <?php if($page->children()->first()->url() != ''): ?>
-    <a class="bt_next" href="<?php echo $page->children()->first()->url() ?>"><span></span></a>
-    <?php else: ?>
-        <?php if($next_chapter != ''): ?>
-    <a class="bt_next" href="<?php echo $next_chapter ?>"><span></span></a>
         <?php endif ?>
-    <?php endif ?>
+	<?php endif ?>
+	<?php if($next_part != ''): ?>
+	<a class="bt_next" href="<?php echo $next_part ?>"><span></span></a>
+	<?php else: ?>
+		<?php if($next_chapter != ''): ?>
+	<a class="bt_next" href="<?php echo $next_chapter ?>"><span></span></a>
+		<?php endif ?>
+	<?php endif ?>
 
 <?php else: ?>
 
     <div class="teaser_container">
-        <h1><?php echo $page->title()->html() ?></h1>
-        <h2><?php echo $page->txt_date()->html() ?></h2>
+        <h1><?php echo $page->parent()->title()->html() ?></h1>
+        <h2><?php echo $page->parent()->txt_date()->html() ?></h2>
         <div class="img_container">
             <!-- <img src="img/chapitre1/teaser.jpg" alt=""> -->
-            <img class="chapter_illus_resume" src="<?php echo $page->url() . '/' . $page->illus_resume() ?>" alt="">
+            <img class="chapter_illus_resume" src="<?php echo $page->parent()->url() . '/' . $page->parent()->illus_resume() ?>" alt="">
         </div>
         <p class="resume">
-          <?php echo $page->resume() ?>
+          <?php echo $page->parent()->resume() ?>
         </p>
     </div>
 

@@ -4,7 +4,7 @@ options:
   template: false
   url: false
   delete: false
-pages: false
+pages: subchapter
 files:
   sortable: true
   type: image
