@@ -78,6 +78,9 @@ fields:
                         label: Image
                         type: image
                         required: true
+                    caption:
+                        label: Légende
+                        type: text
             builder_slideshow:
                 label: Diaporama
                 snippet: builder/images

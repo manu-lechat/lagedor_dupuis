@@ -6,7 +6,7 @@ Cover: couv-l-age-d-or.jpg
 
 ----
 
-Publication-date:
+Publication-date: 
 
 ----
 
@@ -18,21 +18,22 @@ Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 
 ----
 
-Builder:
+Builder: 
 
--
+- 
   picture: visuel-chapitre_1.jpg
   _fieldset: builder_picture
--
+- 
   picture: |
     - visuel-chapitre_4.jpg
     - visuel-chapitre_6.jpg
     - visuel-chapitre_7.jpg
     - visuel-chapitre_8.jpg
   _fieldset: builder_slideshow
--
+- 
   picture: visuel-chapitre_2.jpg
   _fieldset: builder_picture
--
+  caption: Test légende
+- 
   picture: visuel-chapitre_3.jpg
   _fieldset: builder_picture
