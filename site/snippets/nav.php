@@ -13,7 +13,7 @@
         <div class="col">
 
         <a href="index.php">
-            <img src="/assets/img/_<?php echo($site->language())?>/nav_logo.svg" class="logo appear1">
+            <img src="<?php echo kirby()->urls()->assets() ?>/img/_<?php echo($site->language())?>/nav_logo.svg" class="logo appear1">
         </a>
         <p class="intro appear1">
 
@@ -112,11 +112,11 @@
 
 
       <div class="social_nav">
-          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="../assets/img/ui/icon_fb.svg" alt="" class=''></a>
-          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="../assets/img/ui/icon_insta.svg" alt="" class=''></a>
-          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="../assets/img/ui/icon_tt.svg" alt="" class=''></a>
+          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_fb.svg" alt="" class=''></a>
+          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_insta.svg" alt="" class=''></a>
+          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_tt.svg" alt="" class=''></a>
       </div>
 
-      <a href="https://www.franceinter.fr/" target="_blank" class="logo_france_inter appear1"><img src="../assets/img/nav/france-inter.svg" alt=""></a>
+      <a href="https://www.franceinter.fr/" target="_blank" class="logo_france_inter appear1"><img src="<?php echo kirby()->urls()->assets() ?>/img/nav/france-inter.svg" alt=""></a>
 
 </div> <!-- .cd-nav -->
