@@ -43,3 +43,11 @@ Dir-img: chapitre1
 ----
 
 Txt-pages: Pages 1 à 17
+
+----
+
+Active: off
+
+----
+
+Lisibility: on

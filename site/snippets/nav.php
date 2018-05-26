@@ -38,9 +38,18 @@
                     <h3 class="hover_content"><?php echo $site->nav_blog()->html() ?></h3>
                   </a>
                 </div>
+            <?php $today = date('Ymd') ?>
             <?php foreach( $site->index()->filterBy('template', 'chapter') as $chapter ): ?>
+                <?php $date_in = $chapter->date('Ymd','date_in') ?>
+                <?php $date_out = $chapter->date('Ymd','date_out') ?>
+                <?php $lisibility = $chapter->lisibility() ?>
+                <?php if ( $today >= $date_in && $today <= $date_out or $lisibility == 'on' ): ?>
+                    <?php $state = '' ?>
+                <?php else: ?>
+                    <?php $state = 'inactif' ?>
+                <?php endif ?>
                 <div class="swiper-slide appear2">
-                  <a href="<?php echo $chapter->url() ?>"  <?php if( $chapter->url() != $page->url() ): ?>class="inactif"<?php endif ?> img_hover="visuel-<?php echo $chapter->title()->html() ?>.jpg">
+                  <a href="<?php echo $chapter->url() ?>" class="<?php echo $state ?>" img_hover="visuel-<?php echo $chapter->title()->html() ?>.jpg">
                     <h2><?php echo $chapter->title()->html() ?></h2>
                     <h3 class="first_content"><?php echo $chapter->txt_pages()->html() ?></h3>
                     <h3 class="hover_content"><?php echo $chapter->txt_date()->html() ?></h3>
@@ -55,9 +64,7 @@
                 </div>
             </div>
 
-
         </div>
-
 
         </div>
       </nav>
