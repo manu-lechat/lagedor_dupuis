@@ -28,74 +28,27 @@
                 <!-- Slides -->
                 <div class="swiper-slide appear2">
                   <a href="/presentation" class='' img_hover="default">
-                    <h2>L'album</h2>
+                    <h2><?php echo $site->page('presentation')->title()->html() ?></h2>
                     <h3 class="first_content">Résumé et présentation des auteurs</h3>
                     <h3 class="hover_content">Résumé et présentation des auteurs</h3>
                   </a>
                 </div>
                 <div class="swiper-slide appear2">
                   <a href="/blog" class='' img_hover="blog.jpg">
-                    <h2>Blog</h2>
+                    <h2><?php echo $site->page('blog')->title()->html() ?></h2>
                     <h3 class="first_content">actualité de l'album</h3>
                     <h3 class="hover_content">actualité de l'album</h3>
                   </a>
                 </div>
+            <?php foreach( $site->index()->filterBy('template', 'chapter') as $chapter ): ?>
                 <div class="swiper-slide appear2">
-                  <a href="/chapitre1"  class="inactif" img_hover="visuel-chapitre_1.jpg">
-                    <h2>épisode 1</h2>
+                  <a href="<?php echo $chapter->url() ?>"  <?php if( $chapter->url() != $page->url() ): ?>class="inactif"<?php endif ?> img_hover="visuel-chapitre_1.jpg">
+                    <h2><?php echo $chapter->title()->html() ?></h2>
                     <h3 class="first_content">qsdfghj</h3>
                     <h3 class="hover_content">dfg</h3>
                   </a>
                 </div>
-                <div class="swiper-slide appear2">
-                  <a href="/chapitre2" class="" img_hover="visuel-chapitre_2.jpg">
-                    <h2>épisode 2</h2>
-                    <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
-                  </a>
-                </div>
-                <div class="swiper-slide appear2">
-                  <a href="/chapitre3" class="inactif" img_hover="visuel-chapitre_3.jpg">
-                    <h2>épisode 3</h2>
-                    <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
-                  </a>
-                </div>
-                <div class="swiper-slide appear2">
-                  <a href="/chapitre4" class="inactif" img_hover="visuel-chapitre_4.jpg">
-                    <h2>épisode 4</h2>
-                    <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
-                  </a>
-                </div>
-                <div class="swiper-slide appear2">
-                  <a href="/chapitre5" class="inactif" img_hover="visuel-chapitre_5.jpg">
-                    <h2>épisode 5</h2>
-                    <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
-                  </a>
-                </div>
-                <div class="swiper-slide appear2">
-                  <a href="/chapitre6" class="inactif" img_hover="visuel-chapitre_6.jpg">
-                    <h2>épisode 6</h2>
-                    <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
-                  </a>
-                </div>
-                <div class="swiper-slide appear2">
-                  <a href="/chapitre7" class="inactif" img_hover="visuel-chapitre_7.jpg">
-                    <h2>épisode 7</h2>
-                    <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
-                  </a>
-                </div>
-                <div class="swiper-slide appear2">
-                  <a href="/chapitre8" class="inactif" img_hover="visuel-chapitre_8.jpg">
-                    <h2>dernier épisode</h2>
-                    <h3 class="first_content">qsdfghj</h3>
-                    <h3 class="hover_content">dfg</h3>
-                  </a>
-                </div>
+            <?php endforeach ?>
             </div>
 
 

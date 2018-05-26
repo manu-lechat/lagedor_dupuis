@@ -4,10 +4,6 @@
 
 
 
-<?php echo $test ?>
-
-
-
 
 
 
