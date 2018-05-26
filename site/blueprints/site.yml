@@ -7,6 +7,14 @@ fields:
         label: Titre
         type: text
 
+    home_line:
+        label: Page d'accueil
+        type: line
+
+    home_welcome:
+        label: Bouton page d'accueil
+        type: text
+
     nav_line:
         label: Navigation
         type: line
@@ -17,5 +25,10 @@ fields:
 
     blog_readmore:
         label: Lire la suite
+        type: text
+        required: true
+
+    blog_goBack:
+        label: Retour au blog
         type: text
         required: true

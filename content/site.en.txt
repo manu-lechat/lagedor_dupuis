@@ -7,3 +7,15 @@ Text:
 ----
 
 Blog-readmore: Read more
+
+----
+
+Home-welcom: Découvrir l'album
+
+----
+
+Home-welcome: Discover the album
+
+----
+
+Blog-goback: Back

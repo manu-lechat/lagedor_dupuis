@@ -277,9 +277,18 @@ h1, h2, h3{ font-family: 'PT_Serif_Italic', serif; font-weight: lighter;}
 .page_blog .chapo{ text-align: center; font-size: 32px; margin-bottom: 1em; line-height: 1.5em; font-family: 'PT_Serif_Italic' ;   }
 .page_blog article{ margin-bottom: 20px; margin-top: 80px;  display:block; clear: both; }
 .page_blog .txt_container{  width: calc(100% - 80px); margin-top: -40px; margin-left: 40px; padding: 40px; background: white;  text-align: left;}
-.page_blog a{ font-family: 'PT_Serif_Italic'; color :#63bcba; cursor: pointer; transition:all .17s; }
+.page_blog a{ font-size: 16px;  border:2px solid #63bcba;   background-color:#fff; padding: 5px 25px;  display: inline-block; margin-top: 20px; border-radius: 50px; font-family: 'PT_Serif_Italic'; color :#63bcba; cursor: pointer; transition:all 1.17s; }
+.page_blog a:hover{ background-color:#63bcba;  color :#fff; cursor: pointer; transition:all .17s;  }
+.page_blog .img_hover_container{ width: 100%; height: 480px; overflow: hidden;}
+.page_blog .img_hover_container img{ position: absolute; top: 50%; transform: translateY(-50%); left: 0; width: 100% }
 
+.page_blog .top_content{ border-bottom: 1px solid #dedede; padding: 0 80px 80px 80px; }
+.page_blog .top_content a{ float: left; display: block;}
 
+.page_blog_article .swiper_article{ border:1px solid #dedede }
+.page_blog_article .swiper_article img{  }
+
+/* page article_
 /* load imgs */
 
 .preload_img{ display: none; }
@@ -298,24 +307,6 @@ h1, h2, h3{ font-family: 'PT_Serif_Italic', serif; font-weight: lighter;}
 .lien_dezoom.zoom{ background: url('../img/icone_zoom_plus.svg'); }
 .lien_dezoom:hover { transform:scale(1.1); transition: all .3s ease-out; }
 
-/* cursor
-
-*{
-    cursor: none;
-}
-
-.cursor {
-  position: absolute;
-  height: 1vw;
-  width: 1vw;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  background-color: #63bcba;
-}
-
-*/
-
-
 /* teaser */
 
 .teaser_container{ width: 50vw; margin: 5vw auto; text-align: center; }
@@ -327,7 +318,6 @@ h1, h2, h3{ font-family: 'PT_Serif_Italic', serif; font-weight: lighter;}
 /* ui */
 
 .lire_la_suite{ position: absolute; top: 50%; left: 50%;  transform: translate3d(-50%,-50%,0) ; border-radius: 50%; background-repeat: no-repeat;     box-shadow: 0px 0px 20px rgba(0,0,0,0.15);  background-color: #fff; background-image: url('../img/icone next.svg'); background-size:  30% auto;; background-position: center; border:2px solid #63bcba;  z-index: 8;  width:50px; height: 50px; }
-
 
 
 /*

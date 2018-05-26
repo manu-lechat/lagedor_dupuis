@@ -4,6 +4,23 @@ options:
   template: false
   url: false
   delete: false
-pages: article
+pages: false
 files: false
+
 fields:
+    title:
+        label: Titre de la page
+        type:  text
+        width: 1/3
+    intro:
+        label: Introduction
+        type:  textarea
+        buttons: false
+        required: true
+        icon: font
+    text:
+        label: Texte principal
+        type:  textarea
+        buttons: false
+        required: true
+        icon: font
