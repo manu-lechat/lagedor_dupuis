@@ -40,7 +40,7 @@ fields:
         type: textarea
         buttons: false
         required: true
-    texte:
+    text:
       label: Texte pour la page Article
       type: textarea
       buttons: false

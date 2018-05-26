@@ -19,7 +19,11 @@
 
           <div class="txt_container">
           <h3><?php echo $page->title()->html() ?></h3>
+          <?php if ( $page->text() != '' ): ?>
+          <?php echo $page->text()->kirbytext() ?>
+          <?php else: ?>
           <?php echo $page->resume()->kirbytext() ?>
+          <?php endif ?>
           </div>
           <div class="article_content">
           <?php foreach($page->builder()->toStructure() as $section): ?>
