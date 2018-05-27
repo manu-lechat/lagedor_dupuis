@@ -57,3 +57,18 @@ c::set('languages', array(
 
 // Set a panel stylesheet to customize it
 c::set('panel.stylesheet', 'panel/assets/css/panel-plus.css');
+
+// Set basic roles to prevent editor to be overide by translator
+c::set('roles', [
+  [
+    'id'      => 'admin',
+    'name'    => 'Admin',
+    'default' => true,
+    'panel'   => true
+  ],
+  [
+    'id'      => 'editor',
+    'name'    => 'Editor',
+    'panel'   => true
+  ]
+]);
