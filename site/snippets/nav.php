@@ -12,13 +12,12 @@
       <nav class="nav_col_gauche">
         <div class="col">
 
-        <a href="index.php">
+        <a href="/">
             <img src="<?php echo kirby()->urls()->assets() ?>/img/_<?php echo($site->language())?>/nav_logo.svg" class="logo appear1">
         </a>
-        <p class="intro appear1">
-            <?php echo $site->nav_intro()->kirbytextRaw() ?>
-        </p>
-        <!-- <h1>Sommaire</h1> -->
+        <div class="intro appear1">
+            <?php echo $site->nav_intro()->kirbytext() ?>
+        </div>
 
         <div  class="swiper-container swiper_menu sommaire">
             <!-- Additional required wrapper -->
@@ -49,7 +48,7 @@
                     <?php $state = 'inactif' ?>
                 <?php endif ?>
                 <div class="swiper-slide appear2">
-                  <a href="<?php echo $chapter->url() ?>" class="<?php echo $state ?>" img_hover="visuel-<?php echo $chapter->title()->html() ?>.jpg">
+                  <a href="<?php echo $chapter->url() ?>" class="<?php echo $state ?>" img_hover="visuel-<?php echo $chapter->id() ?>.jpg">
                     <h2><?php echo $chapter->title()->html() ?></h2>
                     <h3 class="first_content"><?php echo $chapter->txt_pages()->html() ?></h3>
                     <h3 class="hover_content"><?php echo $chapter->txt_date()->html() ?></h3>

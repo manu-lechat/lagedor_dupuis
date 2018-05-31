@@ -16,11 +16,11 @@ fields:
         label: Introduction
         type:  textarea
         buttons: false
-        required: true
+        required: false
         icon: font
     text:
         label: Texte principal
         type:  textarea
-        buttons: false
-        required: true
+        buttons: true
+        required: false
         icon: font

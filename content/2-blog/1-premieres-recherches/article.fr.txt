@@ -1,0 +1,50 @@
+Title: Premières recherches.
+
+----
+
+Cover: 000.jpg
+
+----
+
+Publication-date: 
+
+----
+
+Resume: Les premières esquisses des personnages et des ambiances étaient  assez instinctives. Il s'agissait d'essayer de poser sur les papiers les impressions diffuses, les images plus ou moins vagues, que nous avions en tête au moment de l'écriture du scénario. Réalisés au crayon et au fusain, avec parfois des rehauts de couleur très légers, ces dessins préparatoires ont donné une première direction au livre, qui sera finalement remise en question quelques mois plus tard.
+
+----
+
+Text: Les premières esquisses des personnages et des ambiances étaient  assez instinctives. Il s'agissait d'essayer de poser sur les papiers les impressions diffuses, les images plus ou moins vagues, que nous avions en tête au moment de l'écriture du scénario. Réalisés au crayon et au fusain, avec parfois des rehauts de couleur très légers, ces dessins préparatoires ont donné une première direction au livre, qui sera finalement remise en question quelques mois plus tard.
+
+----
+
+Builder: 
+
+- 
+  picture: agedor-003.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: agedor-004.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: agedor-test1-v6.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: agedor-test2.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: recherche-1.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: recherche-2.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: recherche-3.jpg
+  caption: ""
+  _fieldset: builder_picture

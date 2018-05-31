@@ -2,11 +2,11 @@ Title: Chapitre 4
 
 ----
 
-Date-in: 2018-07-23
+Date-in: 2018-07-26
 
 ----
 
-Date-out: 2018-07-29
+Date-out: 2018-08-02
 
 ----
 
@@ -26,7 +26,7 @@ Couv:
 
 ----
 
-Txt-date: Disponible du 23 au 29 julllet
+Txt-date: Disponible du 26 juillet au 2 aout
 
 ----
 
@@ -43,3 +43,15 @@ Lien-prev-page: chapitre3
 ----
 
 Lien-next-page: chapitre5
+
+----
+
+Lisibility: off
+
+----
+
+Txt-pages: pages 82 à 113
+
+----
+
+Mode: slideshow

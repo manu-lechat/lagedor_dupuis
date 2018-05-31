@@ -1,10 +1,9 @@
-title: Blog
+title: Test
 options:
   status: false
-  template: false
+  template: true
   url: false
   delete: false
-pages: article
 files: false
 
 fields:

@@ -1,0 +1,52 @@
+Title: Making-Of de l'image d'ouverture
+
+----
+
+Cover: yt_couv.jpg
+
+----
+
+Publication-date: 
+
+----
+
+Resume: Après avoir décidé de changer de technique graphique pour le livre, il a fallu recommencer les trente premières pages.
+
+----
+
+Builder: 
+
+- 
+  youtube: >
+    https://www.youtube.com/watch?v=Yfws-bX-qtg
+  _fieldset: builder_youtube
+- 
+  text: >
+    Cette première planche a ensuite été
+    prolongée pour former un long dessin
+    panoramique de plus de deux mètres de
+    long.
+  _fieldset: builder_text
+- 
+  picture: lagedor_prologue-copie.jpg
+  _fieldset: builder_picture
+- 
+  picture: premiere_image.jpg
+  _fieldset: builder_picture
+- 
+  picture: l-age-d-or_1_page_002.jpg
+  _fieldset: builder_picture
+- 
+  picture: l-age-d-or_1_page_003.jpg
+  _fieldset: builder_picture
+- 
+  picture: l-age-d-or_1_page_004.jpg
+  _fieldset: builder_picture
+
+----
+
+Text: 
+
+Le résumé ne sera pas présent dans la page suivante donc il faut le prévoir, quitte à ecrire deux fois la mêle chose :
+Après avoir décidé de changer de technique graphique pour le livre, il a fallu recommencer les trente premières pages.
+Voici une vidéo tournée par Laura Moreil, lors du tout premier jour de travail pour redessiner le prologue du livre.

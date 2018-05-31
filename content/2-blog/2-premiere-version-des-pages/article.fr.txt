@@ -1,0 +1,102 @@
+Title: Première version des pages.
+
+----
+
+Cover: couv_article2.jpg
+
+----
+
+Publication-date: 
+
+----
+
+Resume: Voici une première version des 34 premières pages du livre, réalisées dans la même technique que les premières esquisses. Un premier doute émerge autour du personnage de Tilda, qui dans cette version ne nous convainc pas tout à fait. Petit à petit ce doute  nous amène à remettre complètement en question ce premier choix graphique, qui nous semble désormais beaucoup trop éloigné de l'imagerie médiévale. Il faudra donc se remettre au travail pour trouver un résultat plus convaincant, et refaire complètement ces 34 premières pages.
+
+----
+
+Text: Voici une première version des 34 premières pages du livre, réalisées dans la même technique que les premières esquisses. Un premier doute émerge autour du personnage de Tilda, qui dans cette version ne nous convainc pas tout à fait. Petit à petit ce doute  nous amène à remettre complètement en question ce premier choix graphique, qui nous semble désormais beaucoup trop éloigné de l'imagerie médiévale. Il faudra donc se remettre au travail pour trouver un résultat plus convaincant, et refaire complètement ces 34 premières pages.
+
+----
+
+Builder: 
+
+- 
+  picture: lagedor-10.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-11.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-12.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-13.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-14.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-15.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-16-v2.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-17.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-18.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-19.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-20.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-21-22.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-23-24.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-25.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-26.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-27.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-28.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-34.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-9.jpg
+  caption: ""
+  _fieldset: builder_picture
+- 
+  picture: lagedor-prologuenoir-et-blanc-def.jpg
+  caption: ""
+  _fieldset: builder_picture

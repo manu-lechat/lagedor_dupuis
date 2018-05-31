@@ -2,15 +2,15 @@ Title: Chapitre 7
 
 ----
 
-Date-in: 
+Date-in: 2018-08-16
 
 ----
 
-Date-out: 
+Date-out: 2018-08-23
 
 ----
 
-Resume: 
+Resume: atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima ve
 
 ----
 
@@ -19,3 +19,23 @@ Texte:
 ----
 
 Couv: 
+
+----
+
+Lisibility: off
+
+----
+
+Txt-pages: pages 170 à 201
+
+----
+
+Txt-date: du 13 au 23 août
+
+----
+
+Illus-resume: bandeau1.jpg
+
+----
+
+Mode: slideshow

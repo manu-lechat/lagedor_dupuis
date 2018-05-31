@@ -2,11 +2,11 @@ Title: Chapitre 1
 
 ----
 
-Date-in: 2018-07-02
+Date-in: 2018-07-05
 
 ----
 
-Date-out: 2018-07-08
+Date-out: 2018-07-12
 
 ----
 
@@ -26,7 +26,7 @@ Illus-resume: bandeau1.jpg
 
 ----
 
-Txt-date: Disponible du 2 au 8 juillet
+Txt-date: Disponible du 5 au 12 juillet
 
 ----
 
@@ -42,7 +42,7 @@ Dir-img: chapitre1
 
 ----
 
-Txt-pages: Pages 1 à 17
+Txt-pages: Pages 1 à 29
 
 ----
 
@@ -51,3 +51,7 @@ Active: off
 ----
 
 Lisibility: on
+
+----
+
+Mode: panorama

@@ -21,7 +21,7 @@
     <?php array_push($array,$chapter->id()) ?>
 <?php endforeach ?>
 <?php $chapter_index = array_search($page->id(), $array) ?>
-<?php $prev_chapter = '' ?>
+<?php $prev_chapter = '/chapitre1'; // ça sera un bug à corriger ?>
 <?php if ( $chapter_index > 0 ): ?>
     <?php $prev_chapter = $site->page($array[$chapter_index-1])->url() ?>
 <?php endif ?>
@@ -37,6 +37,8 @@
     <?php array_push($array,$part->id()) ?>
 <?php endforeach ?>
 <?php $part_index = array_search($page->id(), $array) ?>
+
+
 <?php $prev_part = '' ?>
 <?php if ( $part_index > 0 ): ?>
     <?php $prev_part = $site->page($array[$part_index-1])->url() ?>
@@ -46,45 +48,48 @@
     <?php $next_part = $site->page($array[$part_index+1])->url() ?>
 <?php endif ?>
 
-<!-- $images_index != 0 est peut être en trop  -->
-<?php if ( $today >= $date_in && $today <= $date_out && $images_index != 0 or $lisibility == 'on' && $images_index != 0 ): ?>
+<?php if ( ($today >= $date_in && $today <= $date_out) or ($lisibility == 'on')  ): ?>
 
-    <!-- PANORAMA -->
-    <?php if ( $images_index == 1): ?>
 
-        Il y a qu'une image :
-        <?php foreach( $images as $image ): ?>
-            <?php echo $image ?>
-        <?php endforeach ?>
-        on peut donc faire un panorama
-
-    <!-- SLIDESHOW -->
-    <?php else: ?>
-
-        Il y a <?php echo $images_index ?> images :
-        <ul>
-        <?php foreach( $images as $image ): ?>
-            <li><?php echo $image ?></li>
-        <?php endforeach ?>
-        </ul>
-        on peut donc faire un diaporama
-
-    <?php endif ?>
-
-	<?php if($prev_part != ''): ?>
-	<a class="bt_prev" href="<?php echo $prev_part ?>"><span></span></a>
+  <?php if($prev_part != ''): ?>
+	<a class="bt_prev_chapitre bt_prev"  id="bt_prev_chapitre" href="<?php echo $prev_part ?>"><span></span></a>
 	<?php else: ?>
 		<?php if($prev_chapter != ''): ?>
-    <a class="bt_prev" href="<?php echo $prev_chapter ?>"><span></span></a>
+    <a class="bt_prev_chapitre bt_prev"  id="bt_prev_chapitre" href="<?php echo $prev_chapter ?>"><span></span></a>
         <?php endif ?>
 	<?php endif ?>
 	<?php if($next_part != ''): ?>
-	<a class="bt_next" href="<?php echo $next_part ?>"><span></span></a>
+	<a class="bt_next_chapitre bt_next" id="bt_next_chapitre" href="<?php echo $next_part ?>"><span></span></a>
 	<?php else: ?>
 		<?php if($next_chapter != ''): ?>
-	<a class="bt_next" href="<?php echo $next_chapter ?>"><span></span></a>
+	<a class="bt_next_chapitre bt_next" id="bt_next_chapitre" href="<?php echo $next_chapter ?>"><span></span></a>
 		<?php endif ?>
 	<?php endif ?>
+
+
+  <div class="layout_display_container">
+
+  <!-- PANORAMA -->
+  <?php if ( $page->mode() == 'panorama'): ?>
+
+
+
+    <!-- player_panoramique -->
+    <?php  snippet('player_panoramique', array('player_slideshow_images' => $images)) ?>
+
+
+  <!-- SLIDESHOW -->
+  <?php else: ?>
+
+
+      <!-- player_slideshow -->
+      <?php  snippet('player_slideshow', array('player_slideshow_images' => $images)) ?>
+
+
+
+  <?php endif ?>
+
+
 
 <?php else: ?>
 
@@ -101,13 +106,14 @@
     </div>
 
     <?php if($prev_chapter != ''): ?>
-    <a class="bt_prev" href="<?php echo $prev_chapter ?>"><span></span></a>
+    <a class="bt_prev_chapitre bt_prev"  id="bt_prev_chapitre" href="<?php echo $prev_chapter ?>"><span></span></a>
     <?php endif ?>
     <?php if($next_chapter != ''): ?>
-    <a class="bt_next" href="<?php echo $next_chapter ?>"><span></span></a>
+    <a class="bt_next_chapitre bt_next" id="bt_next_chapitre" href="<?php echo $next_chapter ?>"><span></span></a>
     <?php endif ?>
 
 <?php endif ?>
 </main>
 
+</div>
 <?php snippet('footer') ?>

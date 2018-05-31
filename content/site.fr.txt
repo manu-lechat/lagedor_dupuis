@@ -1,4 +1,4 @@
-Title: L'âge d'or
+Title: L’âge d’or
 
 ----
 
@@ -18,11 +18,11 @@ Blog-goback: Retour au blog
 
 ----
 
-Nav-presentation: Résumé et présentation des auteurs
+Nav-presentation: Le livre / les auteurs
 
 ----
 
-Nav-blog: Actualité de l'album
+Nav-blog: Bonus / actus
 
 ----
 

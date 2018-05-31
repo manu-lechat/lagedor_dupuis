@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
 
 <main  class="barba-container page_chapter" data-namespace="page_chapter">
+<div class="layout_display_container">
 
 <?php $today = date('Ymd') ?>
 <?php $date_in = $page->date('Ymd','date_in') ?>
@@ -11,8 +12,10 @@
 <?php $images = glob( $dir_img ) ?>
 <?php $images_index = 0 ?>
 <?php foreach( $images as $image ): ?>
+
     <?php $images_index++ ?>
 <?php endforeach ?>
+
 
 <?php $array = [] ?>
 <?php $count = -1 ?>
@@ -30,45 +33,49 @@
     <?php $next_chapter = $site->page($array[$chapter_index+1])->url() ?>
 <?php endif ?>
 
-<!-- $images_index != 0 est peut être en trop  -->
-<?php if ( $today >= $date_in && $today <= $date_out && $images_index != 0 or $lisibility == 'on' && $images_index != 0 ): ?>
+
+<?php if ( ($today >= $date_in && $today <= $date_out) or ($lisibility == 'on')  ): ?>
+
+
+
+      <?php if($prev_chapter != ''): ?>
+      <a class="bt_prev_chapitre bt_prev" id="bt_prev_chapitre" href="<?php echo $prev_chapter ?>"><span></span></a>
+      <?php endif ?>
+      <?php if($page->children()->first() != null): ?>
+      <a class="bt_next_chapitre bt_next"  id="bt_next_chapitre"  href="<?php echo $page->children()->first()->url() ?>"><span></span></a>
+      <?php else: ?>
+          <?php if($next_chapter != ''): ?>
+      <a class="bt_next_chapitre bt_next"  id="bt_next_chapitre" href="<?php echo $next_chapter ?>"><span></span></a>
+          <?php endif ?>
+      <?php endif ?>
+
 
     <!-- PANORAMA -->
-    <?php if ( $images_index == 1): ?>
+    <?php if ( $page->mode() == 'panorama'): ?>
 
-        Il y a qu'une image :
-        <?php foreach( $images as $image ): ?>
-            <?php echo $image ?>
-        <?php endforeach ?>
-        on peut donc faire un panorama
+
+
+      <!-- player_panoramique -->
+      <?php  snippet('player_panoramique', array('player_slideshow_images' => $images)) ?>
+
 
     <!-- SLIDESHOW -->
     <?php else: ?>
 
-        Il y a <?php echo $images_index ?> images :
-        <ul>
-        <?php foreach( $images as $image ): ?>
-            <li><?php echo $image ?></li>
-        <?php endforeach ?>
-        </ul>
-        on peut donc faire un diaporama
+
+        <!-- player_slideshow -->
+        <?php  snippet('player_slideshow', array('player_slideshow_images' => $images)) ?>
+
+
 
     <?php endif ?>
 
-    <?php if($prev_chapter != ''): ?>
-    <a class="bt_prev" href="<?php echo $prev_chapter ?>"><span></span></a>
-    <?php endif ?>
-    <?php if($page->children()->first()->url() != ''): ?>
-    <a class="bt_next" href="<?php echo $page->children()->first()->url() ?>"><span></span></a>
-    <?php else: ?>
-        <?php if($next_chapter != ''): ?>
-    <a class="bt_next" href="<?php echo $next_chapter ?>"><span></span></a>
-        <?php endif ?>
-    <?php endif ?>
+
+
 
 <?php else: ?>
 
-    <div class="teaser_container">
+    <div class="teaser_container" id="teaser_container">
         <h1><?php echo $page->title()->html() ?></h1>
         <h2><?php echo $page->txt_date()->html() ?></h2>
         <div class="img_container">
@@ -80,14 +87,19 @@
         </p>
     </div>
 
+    <!-- Boutons chapitres pour le résumé-->
     <?php if($prev_chapter != ''): ?>
-    <a class="bt_prev" href="<?php echo $prev_chapter ?>"><span></span></a>
+    <a class="bt_prev_chapitre bt_prev" id="bt_prev_chapitre" href="<?php echo $prev_chapter ?>"><span></span></a>
     <?php endif ?>
     <?php if($next_chapter != ''): ?>
-    <a class="bt_next" href="<?php echo $next_chapter ?>"><span></span></a>
+    <a class="bt_next_chapitre bt_next" id="bt_next_chapitre" href="<?php echo $next_chapter ?>"><span></span></a>
     <?php endif ?>
 
+
 <?php endif ?>
+</div>
+
+</div>
 </main>
 
 <?php snippet('footer') ?>

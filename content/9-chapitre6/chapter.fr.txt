@@ -2,15 +2,15 @@ Title: Chapitre 6
 
 ----
 
-Date-in: 
+Date-in: 2018-08-09
 
 ----
 
-Date-out: 
+Date-out: 2018-08-16
 
 ----
 
-Resume: 
+Resume: etur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis au
 
 ----
 
@@ -19,3 +19,23 @@ Texte:
 ----
 
 Couv: 
+
+----
+
+Lisibility: off
+
+----
+
+Txt-pages: pages 140 à 169
+
+----
+
+Txt-date: du 9 au 16 août
+
+----
+
+Illus-resume: bandeau3.jpg
+
+----
+
+Mode: slideshow

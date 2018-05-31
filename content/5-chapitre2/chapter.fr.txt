@@ -2,11 +2,11 @@ Title: Chapitre 2
 
 ----
 
-Date-in: 2018-07-09
+Date-in: 2018-07-12
 
 ----
 
-Date-out: 2018-07-15
+Date-out: 2018-07-19
 
 ----
 
@@ -26,7 +26,7 @@ Couv:
 
 ----
 
-Txt-date: Disponible du 9 au 15 juillet
+Txt-date: Disponible du 12 au 19 juillet
 
 ----
 
@@ -43,3 +43,15 @@ Lien-next-page: chapitre3
 ----
 
 Dir-img: chapitre2
+
+----
+
+Lisibility: on
+
+----
+
+Txt-pages: Pages 30 à 53
+
+----
+
+Mode: slideshow

@@ -3,5 +3,5 @@ pages: false
 files: false
 fields:
   title:
-    label: Title
+    label: Titre
     type: text

@@ -81,9 +81,7 @@ cody house css
   transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
 }
 
-#cd-nav h1, main p {
-  text-align: center;
-}
+
 #cd-nav h1 {
   font-size: 2.6rem;
   margin-bottom: 1em;
