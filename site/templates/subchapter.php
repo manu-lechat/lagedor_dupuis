@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
 
 <main  class="barba-container page_chapter" data-namespace="page_chapter">
+<div class="layout_display_container">
 
 <?php $today = date('Ymd') ?>
 <?php $date_in = $page->parent()->date('Ymd','date_in') ?>
@@ -113,6 +114,7 @@
     <?php endif ?>
 
 <?php endif ?>
+</div>
 </main>
 
 </div>

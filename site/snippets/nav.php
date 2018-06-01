@@ -75,9 +75,13 @@
 
 
       <div class="social_nav">
-          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_fb.svg" alt="" class=''></a>
-          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_insta.svg" alt="" class=''></a>
-          <a href="https://www.facebook.com/openspace.cyrilpedrosa" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_tt.svg" alt="" class=''></a>
+
+
+          <!-- <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.lagedor-airelibre.com&display=popup&ref=plugin&src=share_button" class="appear3" id="share_fb"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_fb.svg" alt="" class=''></a> -->
+          <a target="_blank" href="https://www.facebook.com/dialog/feed?app_id=184683071273&link=http%3A%2F%2Fwww.lagedor-airelibre.com%2F&picture=http%3A%2F%2Fwww.lagedor-airelibre.com%2Fassets%2Fimg%2Fsocial%2Fcouv_fb.jpg&name=L'%C3%A2ge%20d'or%20par%20Cyril%20Pedrosa%20%26%20Roxane%20Moreil&caption=%20&description=Pr%C3%A9bublication%20de%20l'album%20aux%20%C3%A9ditions%20AIR%20LIBRE&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F" class="appear3" id="share_fb">
+            <img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_fb.svg" alt="" class=''></a>
+          <!-- <a target="_blank" href="http://twitter.com/intent/tweet?text=L'%C3%A2ge%20d'or%20par%20Cyril%20Pedrosa%20%26%20Roxane%20Moreil" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_insta.svg" alt="" class=''></a> -->
+          <a target="_blank" href="https://twitter.com/home?status=http%3A//www.lagedor-airelibre.com/" class="appear3"><img src="<?php echo kirby()->urls()->assets() ?>/img/ui/icon_tt.svg" alt="" class=''></a>
       </div>
 
       <a href="https://www.franceinter.fr/" target="_blank" class="logo_france_inter appear1"><img src="<?php echo kirby()->urls()->assets() ?>/img/nav/france-inter.svg" alt=""></a>
